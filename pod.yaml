@@ -1,4 +1,4 @@
-# apiVersion:   library version 
-# kind:         type of oject
-# metadata:     data about object
-# spec:         
+# apiVersion:   #library version 
+# kind:         #type of oject
+# metadata:     #data about object
+# spec:         #configuration of object
