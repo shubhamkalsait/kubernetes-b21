@@ -10,5 +10,4 @@
 - Pod
 - Service
 
-## Manifest 
-
+## Manifest - yaml
