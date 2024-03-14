@@ -16,4 +16,4 @@ spec:
 
 
 # List
-Fruits: []
+Fruits: [apple, mango, banana]
