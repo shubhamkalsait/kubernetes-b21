@@ -3,4 +3,4 @@ kind: Service
 metadata:
   name: my-pod-service
   labels:
-    app: 
+    app: my-app
