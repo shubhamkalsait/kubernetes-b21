@@ -13,11 +13,3 @@ spec:
   containers:
     - 
     - 
-
-
-# # List
-# Fruits: [apple, mango, banana]
-# Fuits:
-#   - apple
-#   - mango
-#   - banana
