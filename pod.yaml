@@ -15,5 +15,9 @@ spec:
     - 
 
 
-# List
-Fruits: [apple, mango, banana]
+# # List
+# Fruits: [apple, mango, banana]
+# Fuits:
+#   - apple
+#   - mango
+#   - banana
