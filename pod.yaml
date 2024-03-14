@@ -9,6 +9,7 @@ metadata:
   name: my-pod
   labels:
     app: my-app
+  namespace: frontend
 spec:
   containers:
     - name: my-container
