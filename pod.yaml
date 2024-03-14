@@ -3,4 +3,5 @@
 # metadata:     #data about object
 # spec:         #configuration of object
 
-apiVersion:
+apiVersion: v1
+kind: Pod
