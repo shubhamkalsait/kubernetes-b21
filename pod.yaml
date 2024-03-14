@@ -11,6 +11,8 @@ metadata:
     app: my-app
 spec:
   containers:
-    -  
+    - name: my-container
+      image: nginx
+       
 
     - 
