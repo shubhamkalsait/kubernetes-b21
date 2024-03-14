@@ -8,4 +8,6 @@ kind: Pod
 metadata:
   name: my-pod
   labels:
-    
+    app: my-app
+spec:
+  
