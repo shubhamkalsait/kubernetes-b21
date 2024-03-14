@@ -4,3 +4,5 @@ metadata:
   name: my-pod-service
   labels:
     app: my-app
+spec:
+  
