@@ -6,4 +6,6 @@
 ## Lifecycle of pod
 
 ## Objects in Kubernetes
-- 
+- Node
+- Pod
+- Service
