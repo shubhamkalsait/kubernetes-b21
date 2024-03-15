@@ -6,4 +6,5 @@ metadata:
     app: my-app
 spec:
   replicas: 3
-  
+  template:
+    
