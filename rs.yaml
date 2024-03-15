@@ -25,7 +25,7 @@ spec:
     # matchLabels:
     #   app: cbz-app
     matchExpressions:
-      - {key: app, operator: }
+      - {key: app, operator: In, }
 
 # RC = Equality based Selector (=)
-# RS = Set based Selector ()
+# RS = Set based Selector (In, NotIn, Exist)
