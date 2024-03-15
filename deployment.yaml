@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: cbz-app
+        app: studentapp
     spec:
       containers:
         - name: my-container
@@ -24,3 +24,4 @@ spec:
           image: tomcat
           ports: 
             - containerPort: 8080      
+  
