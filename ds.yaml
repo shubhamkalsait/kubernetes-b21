@@ -8,4 +8,6 @@ spec:
   selector:
     matchLabels:
       app: monitoring-app
-  te
+  template:
+    metadata:
+      
