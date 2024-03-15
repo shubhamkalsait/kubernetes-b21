@@ -25,4 +25,5 @@ spec:
     matchLabels:
       app: cbz-app
 
-# RC = 
+# RC = Equality based Selector
+# RS = 
