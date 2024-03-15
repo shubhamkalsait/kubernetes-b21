@@ -1,2 +1,4 @@
 apiVersion: apps/v1
-kind: Daemon
+kind: DaemonSet
+metadata:
+  name: my-ds
