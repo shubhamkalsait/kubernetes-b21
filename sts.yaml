@@ -15,4 +15,6 @@ spec:
         app: xyz-app
     spec:
       containers:
-        - 
+        - name: my-container
+          image: mysql
+          
