@@ -4,3 +4,5 @@ metadata:
   name: my-rs
   labels:
     app: cbz-app
+spec:
+  
