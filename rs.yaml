@@ -25,16 +25,3 @@ spec:
     matchLabels:
       app: cbz-app
 
-# List:
-# Fruit: 
-  - apple
-  - banana
-  - mango
-  - apple
-  - pineapple
-
-# Set
-  - apple
-  - banana
-  - mango
-  - pineapple
