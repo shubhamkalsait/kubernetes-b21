@@ -10,4 +10,5 @@ spec:
     matchLabels:
       app: xyz-app
   template:
-    
+    metadata:
+      
