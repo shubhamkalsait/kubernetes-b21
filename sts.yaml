@@ -3,4 +3,6 @@ kind: StatefulSet
 metadata:
   name: my-sts
   labels:
-    app: 
+    app: xyz-app
+spec:
+  
