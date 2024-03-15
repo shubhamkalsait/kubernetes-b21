@@ -22,4 +22,4 @@ spec:
           ports: 
             - containerPort: 8080
   selector:
-    
+    app: my-app
