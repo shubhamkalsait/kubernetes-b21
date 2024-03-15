@@ -26,4 +26,4 @@ spec:
       app: cbz-app
 
 # RC = Equality based Selector
-# RS = 
+# RS = Set based Selector
