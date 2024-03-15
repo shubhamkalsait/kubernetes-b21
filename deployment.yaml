@@ -9,3 +9,5 @@ spec:
   selector:
     matchLabels:
       app: studentapp
+  template:
+    
