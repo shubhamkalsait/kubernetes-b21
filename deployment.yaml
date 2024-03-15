@@ -24,4 +24,5 @@ spec:
           image: tomcat
           ports: 
             - containerPort: 8080      
-  
+  strategy:
+    
