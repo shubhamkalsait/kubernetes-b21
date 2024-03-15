@@ -25,7 +25,7 @@ spec:
     # matchLabels:
     #   app: cbz-app
     matchExpressions:
-      - {}
+      - {key: app}
 
 # RC = Equality based Selector (=)
 # RS = Set based Selector ()
