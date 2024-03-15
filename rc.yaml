@@ -8,10 +8,8 @@ spec:
   replicas: 3
   template:
     metadata:
-      name: my-pod
       labels:
         app: my-app
-      namespace: frontend
     spec:
       containers:
         - name: my-container
