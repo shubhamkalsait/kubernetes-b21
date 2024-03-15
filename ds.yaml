@@ -13,4 +13,7 @@ spec:
       labels:
         app: monitoring-app
     spec:
-      
+      containers:
+        - name: my-container
+          image: nginx
+          
