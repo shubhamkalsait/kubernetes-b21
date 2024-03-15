@@ -10,4 +10,17 @@ spec:
     matchLabels:
       app: studentapp
   template:
-    
+    metadata:
+      labels:
+        app: cbz-app
+    spec:
+      containers:
+        - name: my-container
+          image: nginx
+          ports:
+            - containerPort: 80 
+
+        - name: tomcat-container
+          image: tomcat
+          ports: 
+            - containerPort: 8080      
