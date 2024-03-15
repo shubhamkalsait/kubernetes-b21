@@ -5,4 +5,5 @@ metadata:
   labels:
     app: studentapp
 spec:
+  replicas: 3
   
