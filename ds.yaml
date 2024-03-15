@@ -10,4 +10,7 @@ spec:
       app: monitoring-app
   template:
     metadata:
+      labels:
+        app: monitoring-app
+    spec:
       
