@@ -11,4 +11,6 @@ spec:
       app: xyz-app
   template:
     metadata:
-      
+      labels:
+        app: xyz-app
+    
