@@ -3,4 +3,6 @@ kind: DaemonSet
 metadata:
   name: my-ds
   labels:
-    app: my-app
+    app: monitoring-app
+spec:
+  
