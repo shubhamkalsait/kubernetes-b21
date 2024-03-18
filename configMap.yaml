@@ -8,15 +8,17 @@ data:
   db: "studentapp"
 
 ---
-    metadata:
-      labels:
-        app: xyz-app
-    spec:
-      containers:
-        - name: my-container
-          image: mysql
-          ports:
-            - containerPort: 3306
-          env:
-          - name: MYSQL_ROOT_PASSWORD
-            value: redhat
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: xyz-app
+spec:
+  containers:
+    - name: my-container
+      image: mysql
+      ports:
+        - containerPort: 3306
+      env:
+      - name: MYSQL_ROOT_PASSWORD
+        value: redhat
