@@ -22,8 +22,9 @@ spec:
           resources:
             requests:
               cpu: 100m
-              memory: 
+              memory: 1Gi
             limits:
+              cpu: 
 
     
   strategy:
