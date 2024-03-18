@@ -25,4 +25,5 @@ spec:
         valueFrom:
           configMapKeyRef:
             name: my-var
-            key: 
+            key: pass
+      
