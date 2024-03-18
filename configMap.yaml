@@ -3,4 +3,5 @@ kind: ConfigMap
 metadata:
   name: my-var
 data:
-  
+  pass: "redhat"
+  user: "linux"
