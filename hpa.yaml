@@ -19,7 +19,8 @@ spec:
           image: nginx
           ports:
             - containerPort: 80 
-          
+          resources:
+            
 
     
   strategy:
