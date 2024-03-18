@@ -26,7 +26,5 @@ spec:
             limits:
               cpu: 300m
               memory: 2Gi
-
-    
   strategy:
     type: RollingUpdate
