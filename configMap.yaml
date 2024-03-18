@@ -27,4 +27,7 @@ spec:
             name: my-var
             key: pass
       - name: MYSQL_USER_NAME
-        
+        valueFrom:
+          configMapKeyRef:
+            name: my-var
+            key
