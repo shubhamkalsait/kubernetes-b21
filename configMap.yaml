@@ -24,4 +24,5 @@ spec:
       - name: MYSQL_ROOT_PASSWORD
         valueFrom:
           configMapKeyRef:
-            
+            name: my-var
+            key: 
