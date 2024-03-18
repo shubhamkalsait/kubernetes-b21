@@ -28,3 +28,5 @@ spec:
               memory: 2Gi
   strategy:
     type: RollingUpdate
+
+---
