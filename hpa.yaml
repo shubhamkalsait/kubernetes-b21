@@ -24,7 +24,8 @@ spec:
               cpu: 100m
               memory: 1Gi
             limits:
-              cpu: 
+              cpu: 300m
+              
 
     
   strategy:
