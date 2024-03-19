@@ -33,4 +33,5 @@ kind: Service
 metadata:
   name: home-app-service
 spec:
-  
+  ports:
+  - name: http
