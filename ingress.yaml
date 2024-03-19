@@ -22,7 +22,7 @@ metadata:
     app: laptop-app
 spec:
   containers:
-    - name: home-app
-      image: nginx
+    - name: laptop-app
+      image: httpd
       ports:
         - containerPort: 80
