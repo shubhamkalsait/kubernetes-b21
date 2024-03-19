@@ -37,4 +37,5 @@ spec:
   - name: http
     port: 80
     targetPort: 80
-  select
+  selector:
+    app: home-app
