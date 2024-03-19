@@ -70,4 +70,14 @@ spec:
                 name: home-app-service
                 port:
                   number: 80
-          
+    
+    - host: cbz.com
+      http:
+        paths:
+          - path: /
+            pathType: prefix
+            backend:
+              service:
+                name: home-app-service
+                port:
+                  number: 80
