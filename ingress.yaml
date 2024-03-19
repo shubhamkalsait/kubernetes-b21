@@ -66,5 +66,6 @@ spec:
           - path: /
             pathType: prefix
             backend:
-              
+              service:
+                name: 
           
