@@ -11,4 +11,18 @@ spec:
       image: nginx
       ports:
         - containerPort: 80
-        
+
+---
+## POD1
+apiVersion: v1
+kind: Pod
+metadata:
+  name: laptop-app
+  labels:
+    app: laptop-app
+spec:
+  containers:
+    - name: home-app
+      image: nginx
+      ports:
+        - containerPort: 80
