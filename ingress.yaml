@@ -59,6 +59,7 @@ kind: Ingress
 metadata:
   name: my-ing
 spec:
+  
   rules:
     - host: cbz.com
       http:
