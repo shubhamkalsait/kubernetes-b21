@@ -59,7 +59,7 @@ kind: Ingress
 metadata:
   name: my-ing
 spec:
-  
+  ingressClassName: nginx
   rules:
     - host: cbz.com
       http:
