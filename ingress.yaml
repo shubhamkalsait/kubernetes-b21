@@ -71,7 +71,7 @@ spec:
                 port:
                   number: 80
     
-    - host: cbz.com
+    - host: laptop.cbz.com
       http:
         paths:
           - path: /
