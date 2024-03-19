@@ -62,4 +62,5 @@ spec:
   rules:
     - host: cbz.com
       http:
-        - 
+        - path: /
+          pathType: 
