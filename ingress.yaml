@@ -67,5 +67,7 @@ spec:
             pathType: prefix
             backend:
               service:
-                name: 
+                name: home-app-service
+                port:
+                  number: 80
           
