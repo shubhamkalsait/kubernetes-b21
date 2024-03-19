@@ -63,4 +63,5 @@ spec:
     - host: cbz.com
       http:
         - path: /
-          pathType: 
+          pathType: prefix
+          
