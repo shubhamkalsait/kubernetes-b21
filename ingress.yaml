@@ -54,4 +54,5 @@ spec:
     app: laptop-app
 
 ---
-apiVersion: 
+apiVersion: networking.k8s.io/v1
+kind: 
