@@ -10,4 +10,5 @@ spec:
     - name: home-app
       image: nginx
       ports:
-        c
+        - containerPort: 80
+        
