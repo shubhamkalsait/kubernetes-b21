@@ -60,4 +60,5 @@ metadata:
   name: my-ing
 spec:
   rules:
-    
+    - host: cbz.com
+      
