@@ -65,4 +65,6 @@ spec:
         paths:
           - path: /
             pathType: prefix
+            backend:
+              
           
