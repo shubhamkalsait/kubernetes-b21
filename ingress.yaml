@@ -39,3 +39,16 @@ spec:
     targetPort: 80
   selector:
     app: home-app
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: laptop-app-service
+spec:
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+  selector:
+    app: home-app
