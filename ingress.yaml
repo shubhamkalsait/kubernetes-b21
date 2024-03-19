@@ -5,3 +5,9 @@ metadata:
   name: home-app
   labels:
     app: home-app
+spec:
+  containers:
+    - name: home-app
+      image: nginx
+      ports:
+        c
