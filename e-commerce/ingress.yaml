@@ -10,7 +10,7 @@ spec:
         number: 80
   ingressClassName: nginx
   rules:
-    - host: vrishi.site
+    - host: a40503227fe11451388ae467d69cdf7f-58c0466353f21821.elb.us-east-1.amazonaws.com
       http:
         paths:
           - path: /cloth
