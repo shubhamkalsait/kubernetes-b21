@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-ing
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: cbz.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: home-app-service
+                port:
+                  number: 80
