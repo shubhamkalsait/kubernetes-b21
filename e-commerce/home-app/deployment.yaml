@@ -15,8 +15,8 @@ spec:
         app: home-app
     spec:
       containers:
-        - name: my-container
-          image: nginx
+        - name: home-app
+          image: shubhamkalsait1/
           ports:
             - containerPort: 80 
 
