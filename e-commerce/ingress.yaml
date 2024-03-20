@@ -12,7 +12,7 @@ spec:
         number: 80
   ingressClassName: nginx
   rules:
-    - host: cbz.com
+    - host: vrishi.site
       http:
         paths:
           - path: /cloth
