@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: home-app
+  labels:
+    app: studentapp
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: studentapp
+  template:
+    metadata:
+      labels:
+        app: studentapp
+    spec:
+      containers:
+        - name: my-container
+          image: nginx
+          ports:
+            - containerPort: 80 
+
+        - name: tomcat-container
+          image: tomcat
+          ports: 
+            - containerPort: 8080      
+  strategy:
+    type: RollingUpdate
