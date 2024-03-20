@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: my-app
   anotations:
-    
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   defaultBackend:
     service:
