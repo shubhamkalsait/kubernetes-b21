@@ -3,6 +3,9 @@ kind: Ingress
 metadata:
   name: my-app
 spec:
+  defaultBackend:
+    service:
+      name: home-app-service
   ingressClassName: nginx
   rules:
     - host: "*"
