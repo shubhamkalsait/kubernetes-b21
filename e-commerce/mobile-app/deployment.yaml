@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: home-app
+  labels:
+    app: home-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: home-app
+  template:
+    metadata:
+      labels:
+        app: home-app
+    spec:
+      containers:
+        - name: home-app
+          image: shubhamkalsait1/home-app:latest
+          ports:
+            - containerPort: 80   
+  strategy:
+    type: RollingUpdate
