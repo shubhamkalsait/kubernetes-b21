@@ -6,6 +6,8 @@ spec:
   defaultBackend:
     service:
       name: home-app-service
+      port:
+        number: 80
   ingressClassName: nginx
   rules:
     - host: "*"
