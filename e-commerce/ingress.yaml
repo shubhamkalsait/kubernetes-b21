@@ -12,7 +12,7 @@ spec:
         number: 80
   ingressClassName: nginx
   rules:
-    - host: a981e7e7ef52b469b916295536ad1670-419211533.us-east-1.elb.amazonaws.com
+    - host: 
       http:
         paths:
           - path: /cloth
