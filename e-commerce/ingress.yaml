@@ -12,8 +12,7 @@ spec:
         number: 80
   ingressClassName: nginx
   rules:
-    - host: 
-      http:
+    - http:
         paths:
           - path: /cloth
             pathType: Prefix
