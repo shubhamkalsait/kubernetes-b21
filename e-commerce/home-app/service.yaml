@@ -4,7 +4,6 @@ metadata:
   name: home-app-service
   labels:
     app: home-app
-  namespace: frontend
 spec:
   type: ClusterIP
   ports:
@@ -12,9 +11,5 @@ spec:
       port: 80
       targetPort: 80
       protocol: TCP
-    - name: java
-      port: 8080
-      targetPort: 8080
-      protocol: TCP
   selector:
-    app: my-app
+    app: home-app
