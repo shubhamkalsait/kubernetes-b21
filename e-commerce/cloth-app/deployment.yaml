@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cloth-app
-          image: shubhamkalsait1/home-app:latest
+          image: shubhamkalsait1/cloth-app:latest
           ports:
             - containerPort: 80   
   strategy:
