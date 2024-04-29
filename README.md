@@ -155,22 +155,6 @@ Kubernetes manages PODS. Container run inside the PODS. PODS are the wraper arou
 
 10. After etcd confirms that the write operation is completed, the API server sends the confirmation information to the relevant kubelet.
 
-# Kubernetes commands use cases
+# Stages of a POD -
 
-## 1. Common Commands 
- - 
-kubectl get pod -o wide - List of nodes and pods
-	
-kubectl get all –all-namespaces - List all of them.
 
-kubectl get service –all-namespaces - Get every service
-
-kubectl get nodes –show-labels - Show labeled nodes
-	
-kubectl run my-nginx –image=nginx –port=80 –expose - Run nginx deployment and expose it 
-
-kubectl run my-nginx –restart=Never –image=nginx –port=80 –expose - Run and expose the Nginx pod
-
-kubectl run my-nginx –image=nginx –replicas=5 –port=80 - Run a two-replica nginx deployment
-
-kubectl create –dry-run –validate -f pod-GFG.yaml - Using a dry run, verify the yaml file
