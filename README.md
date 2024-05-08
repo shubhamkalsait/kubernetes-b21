@@ -157,4 +157,17 @@ Kubernetes manages PODS. Container run inside the PODS. PODS are the wraper arou
 
 # Stages of a POD -
 
+Through its lifecycle, a Pod can attain following states -
 
+**Running -** The pod is scheduled on a node & all its containers are created & atleast one container is in Running state.
+
+**Pending -** The pod is accepted by the Kubernetes system but its containers is/are not created yet.
+
+**Succeeded -** All containers in the Pod have exited with status 0 & will not be restarted.
+
+**Failed -** All containers of the pod have exited & at least one container has returned a non-zero status.
+
+**CrashloopBackoff -** The container fails to start & is tried again & again.
+
+# What is EKS ?
+Amazon EKS is a managed service that eliminates the need to install, operate & maintain your own Kubernetes control plane on AWS. Kubernetes is an open-source system that automates the management, scaling, & deployment of containerized applications.
