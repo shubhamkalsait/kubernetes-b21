@@ -171,3 +171,32 @@ Through its lifecycle, a Pod can attain following states -
 
 # What is EKS ?
 Amazon EKS is a managed service that eliminates the need to install, operate & maintain your own Kubernetes control plane on AWS. Kubernetes is an open-source system that automates the management, scaling, & deployment of containerized applications.
+
+# Features of EKS -
+1. Secure networking & authentication.
+2. Easy cluster scaling.
+3. Managed Kubernetes experience.
+4. High availability.
+5. Integration with AWS services.
+6. Advanced workload Support.
+7. Open-source compatibility.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
