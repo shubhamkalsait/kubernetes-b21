@@ -181,6 +181,12 @@ Amazon EKS is a managed service that eliminates the need to install, operate & m
 6. Advanced workload Support.
 7. Open-source compatibility.
 
+# Kubernetes Objects -
+
+**1. Node**
+In kubernetes, a node object represents a worker machine containerized applications actually run. This machine can be a physical server or a virtual machine(VM). It serves as a communication channel between the control plane & worker machines, enabling scheduling, resource management & health monitorining.
+
+**2. Pods**
 
 
 
