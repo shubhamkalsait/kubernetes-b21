@@ -228,7 +228,7 @@ Provide persistent storage for Pods. PVs (Persistent Volume)  represent the actu
 **15. Jobs -**
 Used to run a set of Pods to completion. Jobs are ideal for one-time tasks or batch processing jobs that don't require continuous operation.
 
-
+13
 
 
 
