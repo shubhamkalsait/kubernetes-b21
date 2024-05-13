@@ -187,6 +187,29 @@ Amazon EKS is a managed service that eliminates the need to install, operate & m
 In kubernetes, a node object represents a worker machine containerized applications actually run. This machine can be a physical server or a virtual machine(VM). It serves as a communication channel between the control plane & worker machines, enabling scheduling, resource management & health monitorining.
 
 **2. Pods**
+The fundamental unit in Kubernetes. A Pod represents a single instance of a running application, encapsulating one or more containers that share storage & network resources. Can run multiple containers in a single pod.
+
+**3. Services**
+Act as an abstraction layer for pods, enabling them to be accessed by external applications or services. Services provide a stable network identity for Pods, even if they are recreated or rescheduled.
+
+**4. Namespace**
+Organize & isolate resources within a cluster. Namespaces allow multiple users or projects to run kubernetes objects without conflicts.
+
+**5. Replication Controller**
+RCs are legacy API object in kubernetes used for managing pod lifecycle & ensuring a desired no. of pod replicas are running at any given time.
+
+**6. Replicaset**
+Guarantee a specific no. of pod replicas are running at all times. Deployments utilize Replicasets internally to manage pod creation & deletion.
+
+**7. Deployment**
+Manage the lifecycle of Pods & ensure a desired no. of replicas are running for your application. Deployments automate deployments and rolling updates, enabling controlled application versioning.
+
+**8. Stateful set**
+Designed for stateful applications that requires persistent storage & unique identities. Stateful sets maintain a desired no. of ordered Pods, ensuring their startup order & persistent storage.
+
+**9. Deamon set**
+Ensure exactly one or more Pods run on all cluster nodes. DaemonSets are useful for system tasks like logging or monitoring agents that need to run on every node.
+
 
 
 
