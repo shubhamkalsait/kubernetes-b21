@@ -183,34 +183,50 @@ Amazon EKS is a managed service that eliminates the need to install, operate & m
 
 # Kubernetes Objects -
 
-**1. Node**
+**1. Node -**
 In kubernetes, a node object represents a worker machine containerized applications actually run. This machine can be a physical server or a virtual machine(VM). It serves as a communication channel between the control plane & worker machines, enabling scheduling, resource management & health monitorining.
 
-**2. Pods**
+**2. Pods -**
 The fundamental unit in Kubernetes. A Pod represents a single instance of a running application, encapsulating one or more containers that share storage & network resources. Can run multiple containers in a single pod.
 
-**3. Services**
+**3. Services -**
 Act as an abstraction layer for pods, enabling them to be accessed by external applications or services. Services provide a stable network identity for Pods, even if they are recreated or rescheduled.
 
-**4. Namespace**
+**4. Namespace -**
 Organize & isolate resources within a cluster. Namespaces allow multiple users or projects to run kubernetes objects without conflicts.
 
-**5. Replication Controller**
+**5. Replication Controller -**
 RCs are legacy API object in kubernetes used for managing pod lifecycle & ensuring a desired no. of pod replicas are running at any given time.
 
-**6. Replicaset**
+**6. Replicaset -**
 Guarantee a specific no. of pod replicas are running at all times. Deployments utilize Replicasets internally to manage pod creation & deletion.
 
-**7. Deployment**
+**7. Deployment -**
 Manage the lifecycle of Pods & ensure a desired no. of replicas are running for your application. Deployments automate deployments and rolling updates, enabling controlled application versioning.
 
-**8. Stateful set**
+**8. Stateful set -**
 Designed for stateful applications that requires persistent storage & unique identities. Stateful sets maintain a desired no. of ordered Pods, ensuring their startup order & persistent storage.
 
-**9. Deamon set**
+**9. Deamon set -**
 Ensure exactly one or more Pods run on all cluster nodes. DaemonSets are useful for system tasks like logging or monitoring agents that need to run on every node.
 
+**10. Config map -**
+A ConfigMap in kubernetes is used to store configuration data, such as environment variables or configuration files, separate from the application code. It allows for easy management & updated of configuration settings without modifying the application itself. It is an API object used to store non-sensitive configuration data in key-value pairs that can be consumed by pods or other kubernetes objects.
 
+**11. Secrets -**
+In kubernetes, a secrets object is a vault for storing sensitive information like passwords, API keys, or tokens used by your applications. It acts like a secure way to keep your "crown jewels" hidden from unauthorized access.
+
+**12. HPA -**
+An HPA object in kubernetes, which stands for Horizontal Pod Autoscaler, is king of like an automatic thermostat for your applications. It helps scale your application up or down based on its resource usage.
+
+**13. Ingress -**
+It acts as a gateway to your services running inside the cluster. Its like a door & doorman for external traffic trying to reach your applications. It sits at the entrance & welcomes external traffic.
+
+**14. PV & PVC -**
+Provide persistent storage for Pods. PVs (Persistent Volume)  represent the actual storage available (e.g., host directory, cloud storage), while PVCs (Persistent Volume Claims) are requests from Pods for storage resources.
+
+**15. Jobs -**
+Used to run a set of Pods to completion. Jobs are ideal for one-time tasks or batch processing jobs that don't require continuous operation.
 
 
 
